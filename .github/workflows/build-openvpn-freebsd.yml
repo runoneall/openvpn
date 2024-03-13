@@ -14,7 +14,7 @@ jobs:
         run: ./configure
       
       - name: 编译项目
-        run: make
+        run: make all
 
       - name: 安装项目
         run: make install
